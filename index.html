@@ -1,33 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Lora's Very Cool Website </title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" >
-  <link href="newcss.css" rel="stylesheet">
-  <style> body {
-  background: #E793F9;
-  color: #fff;
-  padding: 25px;
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACT Tutoring Services</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"> 
 </head>
 <body>
-  <h1>&#10084;Lora's Very Cool Website!!&#10084;</h1>
-  <h2>&#9733;List of cool things&#9733;</h2>
-  <ul>
-    <li>Boba</li>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Bubble_Tea.png" height=120 width=60/>
-    <li>My room (pictured below)</li>
-    <img src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2021/06/skyrim-mod-dungeons-revisited-overhaul.jpg" height=276 width=490/>
-  </ul>
-  <p>&#10084 ;    &#10084 ;    &#10084  ;   &#10084  ;   &#10084 ;    &#10084;</p>
-  <a href="https://www.linkedin.com/in/loraaelliott/" target="_blank">This is my linkedIn account.</a>
-<form>
-  <label for="review">Please write a review for my very Cool website:</label><br>
-  <input type="text" id="review" name="review"><br>
-  <input type="submit" value="Submit">
-</form>
-  
+  <header>
+    <nav>
+      <h2> Important links </h2>
+      <ul>
+        <li><a href="https://www.knoxschools.org/cms/lib/TN01917079/Centricity/Domain/1785/IB%20HL%20Math%20A%20A%20Y1%20Summer.pdf">Practice Math Test</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><h1>ACT Practice Tests</h1>
+  <embed src="https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/1070/10_ACT_Practice_Tests.pdf" type="application/pdf" width="100%" height="600px"></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h1>Boost Your ACT Scores<br>with Expert Tutoring</h1>
+      <a href="#contact" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi, I'm [Your Name], an experienced ACT tutor dedicated to helping students reach their full potential. With my in-depth knowledge of the exam and personalized teaching approach, I provide targeted guidance to improve scores and build confidence.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Services</h2>
+      <ul>
+        <li>Comprehensive ACT content review</li>
+        <li>Proven test-taking strategies</li>
+        <li>Time management techniques</li>
+        <li>Practice with real ACT questions</li>
+        <li>Individualized study plans</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="testimonial">
+        <blockquote>
+          "Thanks to [Your Name], my ACT scores improved significantly. Their personalized approach and effective strategies helped me tackle difficult questions with confidence."
+        </blockquote>
+        <cite>- John Doe</cite>
+      </div>
+      <div class="testimonial">
+        <blockquote>
+          "I highly recommend [Your Name] for ACT tutoring. Their expertise and guidance played a crucial role in my success. Thanks for your support!"
+        </blockquote>
+        <cite>- Jane Smith</cite>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Ready to take the next step? Reach out to discuss your tutoring needs or schedule a session.</p>
+      <form action="contact.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 ACT Tutoring Services. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
