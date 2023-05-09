@@ -58,12 +58,20 @@
     <div class="container">
       <h2>Contact Me</h2>
       <p>Ready to take the next step? Reach out to discuss your tutoring needs or schedule a session.</p>
-      <form action="contact.php" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+      <h1>Contact Me</h1>
+  
+  <form action="contact.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
     </div>
   </section>
     <header>
