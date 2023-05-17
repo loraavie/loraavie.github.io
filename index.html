@@ -12,6 +12,55 @@
     align-items: center;
     font-family: 'Montserrat', sans-serif;
   }
+  @media (max-width: 767px) {
+  /* Styles for small screens */
+  /* Adjust font sizes, padding, and margins to fit smaller screens */
+  #hero h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  /* ... Apply similar adjustments to other sections ... */
+  /* Styles for medium screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #hero {
+    background-color: #EE99FF;
+    padding: 60px;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+  }
+
+  #about p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  #services ul li {
+    font-size: 18px;
+  }
+}
+/* Styles for large screens */
+@media (min-width: 1024px) {
+  #hero {
+    background-color: #EE99FF;
+    padding: 80px;
+  }
+
+  #hero h1 {
+    font-size: 32px;
+  }
+
+  #about p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  #services ul li {
+    font-size: 20px;
+  }
+}
+}
 </style>
 </head>
 <body>
