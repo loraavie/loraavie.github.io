@@ -1,11 +1,23 @@
 <style>
-h1{
+.title{
    color:#ff1493
+}
+h1{
+  color:#ff1493;
 }
 h2{
     color:#ff1493
 }
 ul{
-   color: pink
+   color:#ff1493
+}
+title{
+  color:#ff1493;
+}
+*{
+  background-color: black;
+}
+a[href*='https://www.tiktok.com/@mestreensinad0r/video/7167077459135892741?lang=en']{
+  color:#ff1493;
 }
 </style>
