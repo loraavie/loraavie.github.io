@@ -1,6 +1,9 @@
 <style>
 .title{
-   color:#ff1493
+   color:#ef2c66
+}
+*{
+  color:#ef2c66;
 }
 img{
   height:100px;
@@ -8,7 +11,7 @@ img{
   padding-bottom:1px;
 }
 h1{
-  color:#ff1493;
+
    font-family: 'Rockwell';
    font-weight: bold;
    font-size: 80px;
@@ -16,7 +19,7 @@ h1{
    padding-top: 2px;
 }
 h2{
-   color:#ff1493;
+  
    font-family: 'Rockwell';
    font-size: 50px;
    padding-top:1px;
@@ -27,16 +30,19 @@ ul{
    font-style: italic;
    font-size: 35px;
 }
-title{
-  color:#ff1493;
+.title{
+  padding-bottom:0px;
 }
 *{
   background-color: black;
 }
 a[href*='https://www.tiktok.com/@mestreensinad0r/video/7167077459135892741?lang=en']{
-  color:#ff1493;
+
 }
 a:hover{
   color:red;
+}
+.heart{
+  padding: 10px;
 }
 </style>
