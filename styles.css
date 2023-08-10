@@ -5,6 +5,9 @@
 *{
   color:#ef2c66;
 }
+body {
+  cursor: url('wandcursor.png'),auto;
+}
 img{
   height:100px;
   padding-top: 1px;
