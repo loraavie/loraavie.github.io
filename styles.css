@@ -4,6 +4,8 @@
 }
 *{
   color:#ef2c66;
+   overflow: hidden;
+   white-space: nowrap;
 }
 img{
   height:100px;
