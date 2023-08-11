@@ -28,14 +28,14 @@ h2{
    font-size: 50px;
    padding-top:1px;
    min-width:200px;
-   padding-left: 250px;
+   padding-left: 30%;
 }
 ul{
    color:#ff1493;
    font-family: 'Calibri';
    font-style: italic;
    font-size: 35px;
-   padding-left: 250px;
+   padding-left: 30%;
    list-style-position: inside;
 }
 .title{
