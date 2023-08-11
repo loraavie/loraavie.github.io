@@ -28,14 +28,18 @@ h2{
    font-size: 50px;
    padding-top:1px;
    min-width:200px;
-   padding-left: 30%;
+   text-align:center;
+   margin: 0px;
+   width: 100%;
 }
 ul{
    color:#ff1493;
    font-family: 'Calibri';
    font-style: italic;
    font-size: 35px;
-   padding-left: 30%;
+   padding-left: 20%;
+   margin: 5%;
+   width: 100%;
    list-style-position: inside;
 }
 .title{
@@ -53,4 +57,10 @@ a:hover{
 .heart{
   padding: 10px;
 }
-</style>
+p{
+  text-align: center;
+  font-size:25px;
+  font-style:bold;
+  font-family: 'Calibri';
+}
+  </style>
