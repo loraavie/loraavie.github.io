@@ -13,9 +13,8 @@ img{
    text-align: center;
   padding-top: 1px;
   padding-bottom:1px;
+   justify-content: center;
 }
-.image-container{
-  justify-content: center;}
 h1{
 
    font-family: 'Rockwell';
