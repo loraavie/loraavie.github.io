@@ -9,7 +9,8 @@ body {
   cursor: url('newcursor.png'),auto;
 }
 img{
-  height:100px;
+  height:90%;
+   text-align: center;
   padding-top: 1px;
   padding-bottom:1px;
 }
