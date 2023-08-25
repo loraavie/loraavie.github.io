@@ -9,12 +9,16 @@ body {
   cursor: url('newcursor.png'),auto;
 }
 img{
-  height:90%;
+  height:100px;
    text-align: center;
   padding-top: 1px;
   padding-bottom:1px;
    justify-content: center;
 }
+
+.image-container{
+   justify-content: center;}
+
 h1{
 
    font-family: 'Rockwell';
