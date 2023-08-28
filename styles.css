@@ -13,11 +13,13 @@ img{
    text-align: center;
   padding-top: 1px;
   padding-bottom:1px;
-   justify-content: center;
 }
 
 .image-container{
-   justify-content: center;}
+   justify-content: center;
+  display: flex; /* Create a flex container */
+  justify-content: center; /* Center horizontally */
+}
 
 h1{
 
