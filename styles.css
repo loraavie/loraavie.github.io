@@ -19,6 +19,7 @@ img{
    justify-content: center;
   display: flex; /* Create a flex container */
   justify-content: center; /* Center horizontally */
+   height: 50px;
 }
 
 h1{
