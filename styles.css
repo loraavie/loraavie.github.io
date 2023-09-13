@@ -7,8 +7,7 @@
 }
 body {
   cursor: url('newcursor.png'),auto;
-  border-left: 5px solid #ef2c66;
-  border-right: 5px solid #ef2c66;
+  border: 5px solid #ef2c66;
 }
 img{
   height:100px;
@@ -53,7 +52,7 @@ ul{
    font-family: 'Calibri';
    font-style: italic;
    font-size: 35px;
-   padding-left: 20%;
+   padding-left: 10%;
    margin: 5%;
    width: 100%;
    list-style-position: inside;
