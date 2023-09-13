@@ -52,7 +52,8 @@ ul{
    font-family: 'Calibri';
    font-style: italic;
    font-size: 35px;
-      margin: 0%;
+      margin: 0;
+   padding: 0;
    width: 100%;
    list-style-position: inside;
 }
@@ -94,7 +95,7 @@ p{
       font-size: 10px;
    }
    .separator{
-      max-height: 10px;
+      max-height: 20px;
    }
    .heart{
       height: 20px;
