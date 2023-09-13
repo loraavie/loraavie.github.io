@@ -45,6 +45,7 @@ h2{
    text-align:center;
    margin: 0px;
    width: 100%;
+   border-bottom: 2px solid #ef2c66;
 }
 ul{
    color:#ff1493;
