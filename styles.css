@@ -21,6 +21,7 @@ img{
   display: flex; /* Create a flex container */
   justify-content: center; /* Center horizontally */
    height: 50px;
+   max-width: 100%;
 }
 
 h1{
@@ -72,5 +73,8 @@ p{
   font-size:25px;
   font-style:bold;
   font-family: 'Calibri';
+}
+#currentTime{
+   padding-top: 20px;
 }
   </style>
