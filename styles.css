@@ -23,6 +23,9 @@ img{
    height: 50px;
    max-width: 100%;
 }
+.separator{
+   max-width: 70%;
+}
 
 h1{
 
@@ -77,4 +80,17 @@ p{
 #currentTime{
    padding-top: 20px;
 }
+@media (max-width: 768px) {
+   body{
+      max-width: 100%;
+   }
+    h1 {
+        font-size: 40px; /* Smaller font size for mobile */
+    }
+   h2{
+      font-size: 20px;
+   }
+   ul{
+      font-size: 10px;
+   }
   </style>
