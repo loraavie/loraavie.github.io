@@ -52,8 +52,7 @@ ul{
    font-family: 'Calibri';
    font-style: italic;
    font-size: 35px;
-   padding-left: %;
-   margin: 5%;
+      margin: 0%;
    width: 100%;
    list-style-position: inside;
 }
@@ -99,5 +98,11 @@ p{
    }
    .heart{
       height: 20px;
+   }
+   .head{
+      height: 50px;
+   }
+   #currentTime{
+      font-size: 40px;
    }
   </style>
