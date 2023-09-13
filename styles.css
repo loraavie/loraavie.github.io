@@ -93,4 +93,7 @@ p{
    ul{
       font-size: 10px;
    }
+   .separator{
+      max-height: 5px;
+   }
   </style>
