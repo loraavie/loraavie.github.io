@@ -111,4 +111,42 @@ p{
    #currentTime{
       font-size: 20px;
    }}
+.sidebar {
+    background-color: #ef2c66;
+    color: #fff;
+    flex: 0 0 auto; /* Allow the sidebar to be a fixed width */
+    width: 200px; /* Adjust the width as needed */
+    padding: 20px;
+    height: 100vh; /* Make the sidebar full-height */
+    position: fixed; /* Fix the sidebar in place */
+    font: 'Rockwell';
+    font-weight: bold;
+}
+
+/* Style the list and list items in the sidebar */
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ 
+    border: pink;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+/* Style the links in the sidebar */
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 220px; /* Adjust to match the width of the sidebar */
+}
   </style>
