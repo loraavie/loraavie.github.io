@@ -3,13 +3,14 @@
    color:#96616B
 }
 *{
-  color:#EDE3E9;
+  color:#694D75;
 }
 body {
   cursor: url('newcursor.png'),auto;
-  border: 5px solid #ef2c66;
+  //border: 5px solid #ef2c66;
   border-radius: 1%;
-   background-color: #EDE3E9;
+   background-color: #EBC3DB;
+   color: #694D75;
 }
 img{
   
@@ -48,9 +49,11 @@ h2{
   padding-left: 20%;
    margin: 0px;
    width: 100%;
+   border-bottom: 5px solid #331832;
+   text-align: left;
 }
 ul{
-   color:#96616B;
+   //color:#96616B;
    font-family: 'Calibri';
    font-style: italic;
    font-size: 35px;
@@ -65,13 +68,13 @@ ul{
   padding-bottom:0px;
 }
 *{
-  background-color: black;
+  background-color: #EBC3DB;
 }
 a[href*='https://www.tiktok.com/@mestreensinad0r/video/7167077459135892741?lang=en']{
 
 }
 a:hover{
-  color:red;
+  color:pink;
 }
 .heart{
   padding: 10px;
@@ -126,7 +129,7 @@ p{
    }
 }
 .sidebar {
-    background-color: #96616B;
+    background-color: #694D75;
     color: #EDE3E9;
     flex: 0 0 auto; /* Allow the sidebar to be a fixed width */
     width: 150px; /* Adjust the width as needed */
@@ -135,7 +138,7 @@ p{
     position: fixed; /* Fix the sidebar in place */
     font: 'Rockwell';
     font-weight: bold;
-    border: 5px solid pink;
+    border: 5px solid #331832;
     border-radius: 1%;
 }
 
@@ -144,20 +147,19 @@ p{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #96616B;
-    border: 5px solid #394648;
-    border-radius: 2%;
+    background-color: #694D75;
+    //border: 5px solid white;
+    border-radius: 5%;
 }
 
 .sidebar li {
     padding-bottom: 25px;
     padding-top: 25px;
-    background-color: #96616B;
+    background-color: #331832;
     padding-left: 20px;
+      border: 2px solid #694D75;
+  border-radius: 10%;
     
-}
-.nottop{
-  border-top: 3px solid #394648;
 }
 
 /* Style the links in the sidebar */
@@ -165,10 +167,12 @@ p{
     text-decoration: none;
     color: #EDE3E9;
     font-weight: bold;
-   background-color: #ef2c66;
+   background-color: #331832;
 }
 
 .main{
 margin-left:225px;
+text-align: left;
+margin-right: 100px;
 }
   </style>
