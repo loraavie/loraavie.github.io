@@ -8,6 +8,7 @@
 body {
   cursor: url('newcursor.png'),auto;
   border: 5px solid #ef2c66;
+   background-color: black;
 }
 img{
   
@@ -63,7 +64,7 @@ ul{
   padding-bottom:0px;
 }
 *{
-  background-color: black;
+  //background-color: black;
 }
 a[href*='https://www.tiktok.com/@mestreensinad0r/video/7167077459135892741?lang=en']{
 
