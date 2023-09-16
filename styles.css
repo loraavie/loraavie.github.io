@@ -73,6 +73,7 @@ a:hover{
 }
 .heart{
   padding: 10px;
+   height: 50px;
 }
 .head{
    height: 100px;
@@ -110,12 +111,23 @@ p{
    }
    #currentTime{
       font-size: 20px;
-   }}
+   }
+   .sidebar{
+      width: 50px;
+   }
+   .main{
+      margin-left: 75px;
+   }
+   .sidebar li{
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
+}
 .sidebar {
     background-color: #ef2c66;
     color: #fff;
     flex: 0 0 auto; /* Allow the sidebar to be a fixed width */
-    width: 100px; /* Adjust the width as needed */
+    width: 150px; /* Adjust the width as needed */
     padding: 20px;
     height: 100vh; /* Make the sidebar full-height */
     position: fixed; /* Fix the sidebar in place */
@@ -142,9 +154,10 @@ p{
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+   background-color: #ef2c66;
 }
 
 .main{
-margin-left:175px;
+margin-left:225px;
 }
   </style>
