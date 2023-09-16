@@ -1,15 +1,15 @@
 <style>
 .title{
-   color:#ef2c66
+   color:#96616B
 }
 *{
-  color:#ef2c66;
+  color:#EDE3E9;
 }
 body {
   cursor: url('newcursor.png'),auto;
   border: 5px solid #ef2c66;
   border-radius: 1%;
-   background-color: black;
+   background-color: #EDE3E9;
 }
 img{
   
@@ -50,7 +50,7 @@ h2{
    width: 100%;
 }
 ul{
-   color:#ff1493;
+   color:#96616B;
    font-family: 'Calibri';
    font-style: italic;
    font-size: 35px;
@@ -126,8 +126,8 @@ p{
    }
 }
 .sidebar {
-    background-color: #ef2c66;
-    color: #fff;
+    background-color: #96616B;
+    color: #EDE3E9;
     flex: 0 0 auto; /* Allow the sidebar to be a fixed width */
     width: 150px; /* Adjust the width as needed */
     padding: 20px;
@@ -144,26 +144,26 @@ p{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #ef2c66;
-    border: 5px solid pink;
+    background-color: #96616B;
+    border: 5px solid #394648;
     border-radius: 2%;
 }
 
 .sidebar li {
     padding-bottom: 25px;
     padding-top: 25px;
-    background-color: #ef2c66;
+    background-color: #96616B;
     padding-left: 20px;
     
 }
 .nottop{
-  border-top: 3px solid pink;
+  border-top: 3px solid #394648;
 }
 
 /* Style the links in the sidebar */
 .sidebar a {
     text-decoration: none;
-    color: #fff;
+    color: #EDE3E9;
     font-weight: bold;
    background-color: #ef2c66;
 }
