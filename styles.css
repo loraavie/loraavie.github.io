@@ -113,10 +113,10 @@ p{
       font-size: 20px;
    }
    .sidebar{
-      width: 50px;
+      width: 25px;
    }
    .main{
-      margin-left: 75px;
+      margin-left: 40px;
    }
    .sidebar li{
       padding-top: 10px;
@@ -140,13 +140,14 @@ p{
     list-style-type: none;
     margin: 0;
     padding: 0;
- 
+    background-color: #ef2c66;
     border: pink;
 }
 
 .sidebar li {
     padding-bottom: 25px;
     padding-top: 25px;
+    background-color: #ef2c66;
 }
 
 /* Style the links in the sidebar */
