@@ -38,10 +38,11 @@ h1{
    font-size: 80px;
    background-image: url(https://i.imgur.com/sS8iXbv.gifv);
    padding-top: 2px;
-   //text-align: center;
+   text-align: center;
    color: #331832;
    border: 10px groove #331832;
    border-radius: 3%;
+   padding-left: 10%;
 }
 h2{
   
@@ -92,6 +93,7 @@ p{
   font-style:bold;
   font-family: 'Calibri';
   padding-left: 20%;
+   margin-right: 20%;
 }
 #currentTime{
    padding-top: 20px;
