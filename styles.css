@@ -147,6 +147,10 @@ p{
     border: 5px solid #331832;
     border-radius: 1%;
 }
+.sidebar li: hover{
+   color:#694D75;
+   background-color: #EDE3E9;
+}
 
 /* Style the list and list items in the sidebar */
 .sidebar ul {
@@ -180,5 +184,12 @@ p{
 margin-left:225px;
 text-align: left;
 margin-right: 100px;
+}
+.image{
+   border-radius: 5%;
+}
+figcaption{
+   text-align: right;
+   color:#EDE3E9;
 }
   </style>
