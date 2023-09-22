@@ -148,7 +148,13 @@ p{
     border: 5px solid #331832;
     border-radius: 1%;
 }
+
+/*change the color of the text and background whenever you hover*/
 .sidebar li:hover{
+   color:#694D75;
+   background-color: #EDE3E9;
+}
+.sidebar a:hover{
    color:#694D75;
    background-color: #EDE3E9;
 }
@@ -188,9 +194,10 @@ margin-right: 100px;
 }
 .image{
    border-radius: 5%;
+   float: right;
 }
 figcaption{
-   text-align: right;
-   color:#EDE3E9;
+   text-align: left;
+   color: black;
 }
   </style>
