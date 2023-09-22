@@ -150,7 +150,7 @@ p{
 }
 
 /*change the color of the text and background whenever you hover*/
-.sidebar li:hover{
+.sidebar li:hover + a {
    color:#694D75;
    background-color: #EDE3E9;
 }
