@@ -148,7 +148,7 @@ p{
     border: 5px solid #331832;
     border-radius: 1%;
 }
-.sidebar li: hover{
+.sidebar li:hover{
    color:#694D75;
    background-color: #EDE3E9;
 }
