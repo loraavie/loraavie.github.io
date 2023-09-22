@@ -149,15 +149,6 @@ p{
     border-radius: 1%;
 }
 
-/*change the color of the text and background whenever you hover*/
-.sidebar li:hover + a {
-   color:#694D75;
-   background-color: #EDE3E9;
-}
-.sidebar a:hover{
-   color:#694D75;
-   background-color: #EDE3E9;
-}
 
 /* Style the list and list items in the sidebar */
 .sidebar ul {
@@ -199,5 +190,10 @@ margin-right: 100px;
 figcaption{
    text-align: left;
    color: black;
+}
+/*change the color of the text and background whenever you hover*/
+.sidebar li:hover + a {
+   color:#694D75;
+   background-color: #EDE3E9;
 }
   </style>
