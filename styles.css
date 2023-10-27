@@ -1,4 +1,4 @@
-<style>
+
 .title{
    color:#96616B
 }
@@ -7,7 +7,6 @@
 }
 body {
   cursor: url('newcursor.png'),auto;
-  //border: 5px solid #ef2c66;
   border-radius: 1%;
    background-color: #EBC3DB;
    color: #694D75;
@@ -30,6 +29,24 @@ img{
 }
 .separator{
    width: 70%;
+}
+.form-container {
+   display: flex; /* Use a flex container to align forms horizontally */
+   margin-left: 25%;
+}
+
+.form {
+   margin: 10px; /* Add some margin for spacing */
+}
+.GPACalc{
+   margin-left: 20%;
+   margin-right: 5%;
+   border: #331832 solid 4px;
+   padding-bottom: 5px;
+}
+.calc button:hover{
+   background-color: #694D75;
+   color:#EDE3E9;
 }
 
 h1{
@@ -58,7 +75,6 @@ h2{
    text-align: left;
 }
 ul{
-   //color:#96616B;
    font-family: 'Calibri';
    font-style: italic;
    font-size: 35px;
@@ -75,11 +91,8 @@ ul{
 *{
   background-color: #EBC3DB;
 }
-a[href*='https://www.tiktok.com/@mestreensinad0r/video/7167077459135892741?lang=en']{
-
-}
 a:hover{
-  color:pink;
+  color:rgb(104, 34, 108);
 }
 .heart{
   padding: 10px;
@@ -156,7 +169,6 @@ p{
     margin: 0;
     padding: 0;
     background-color: #694D75;
-    //border: 5px solid white;
     border-radius: 5%;
 }
 
@@ -196,4 +208,3 @@ figcaption{
    color:#694D75;
    background-color: #EDE3E9;
 }
-  </style>
