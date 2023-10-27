@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lora's Cool Website!</title>
+
+  <head>
+    <title><a href="https://imgur.com/sS8iXbv"><img src="https://i.imgur.com/sS8iXbv.gif"
+     title="source: imgur.com" /></a></title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+            <ul>
+                <li class= "topsidebar"><a href="index.html">&#9733; Home</a></li>
+                <li class="nottop"><a href="aboutme.html">&#9733; About Me</a></li>
+                <li class="nottop"><a href="portfolio.html">&#9733; Portfolio</a></li>
+                <li class="nottop"><a href="favorites.html">&#9733; My Favorites</a></li>
+                <li class="nottop"><a href="calculators.html">&#9733; Calculators</a></li>
+            </ul>
+        </nav>
+    
+        <!DOCTYPE html>
+<html>
+  <head><link rel="stylesheet" href="styles.css" /></head>
+
+<body>
+  <h1>GPA Calculator</h1>
+  <div class="GPACalc">
+    <div class="form-container">
+        <form class="form">
+            <!-- Form 1 content -->
+            <label for="g1">Letter Grade:</label>
+             <select id="g1">
+        <option value="A+">A+</option>
+        <option value="A">A</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B">B</option>
+        <option value="B-">B-</option>
+        <option value="C+">C+</option>
+        <option value="C">C</option>
+        <option value="C-">C-</option>        
+        <option value="D+">D+</option>
+        <option value="D">D</option>
+        <option value="D-">D-</option>        
+        <option value="F+">F+</option>
+        <option value="F">F</option>
+        <option value="F-">F-</option>
+        <!-- Add more <option> elements as needed -->
+    </select>
+            <!-- Add more form fields as needed -->
+        </form>
+
+        <form class="form">
+            <!-- Form 2 content -->
+            <label for="h1">Credit Hours:</label>
+            <input type="text" id="h1" name="h1">
+            <!-- Add more form fields as needed -->
+        </form>
+    </div>
+    <div class="form-container">
+        <form class="form">
+            <!-- Form 1 content -->
+            <label for="g2">Letter Grade:</label>
+             <select id="g2">
+        <option value="A+">A+</option>
+        <option value="A">A</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B">B</option>
+        <option value="B-">B-</option>
+        <option value="C+">C+</option>
+        <option value="C">C</option>
+        <option value="C-">C-</option>        
+        <option value="D+">D+</option>
+        <option value="D">D</option>
+        <option value="D-">D-</option>        
+        <option value="F+">F+</option>
+        <option value="F">F</option>
+        <option value="F-">F-</option>
+        <!-- Add more <option> elements as needed -->
+    </select>
+            <!-- Add more form fields as needed -->
+        </form>
+
+        <form class="form">
+            <!-- Form 2 content -->
+            <label for="h2">Credit Hours:</label>
+            <input type="text" id="h2" name="h2">
+            <!-- Add more form fields as needed -->
+        </form>
+    </div>
+        <div class="form-container">
+        <form class="form">
+            <!-- Form 1 content -->
+            <label for="g3">Letter Grade:</label>
+             <select id="g3">
+        <option value="A+">A+</option>
+        <option value="A">A</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B">B</option>
+        <option value="B-">B-</option>
+        <option value="C+">C+</option>
+        <option value="C">C</option>
+        <option value="C-">C-</option>        
+        <option value="D+">D+</option>
+        <option value="D">D</option>
+        <option value="D-">D-</option>        
+        <option value="F+">F+</option>
+        <option value="F">F</option>
+        <option value="F-">F-</option>
+        <!-- Add more <option> elements as needed -->
+    </select>
+            <!-- Add more form fields as needed -->
+        </form>
+
+        <form class="form">
+            <!-- Form 2 content -->
+            <label for="h3">Credit Hours:</label>
+            <input type="text" id="h3" name="h3">
+            <!-- Add more form fields as needed -->
+        </form>
+    </div>
+        <div class="form-container">
+        <form class="form">
+            <!-- Form 1 content -->
+            <label for="g4">Letter Grade:</label>
+             <select id="g4">
+        <option value="A+">A+</option>
+        <option value="A">A</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B">B</option>
+        <option value="B-">B-</option>
+        <option value="C+">C+</option>
+        <option value="C">C</option>
+        <option value="C-">C-</option>        
+        <option value="D+">D+</option>
+        <option value="D">D</option>
+        <option value="D-">D-</option>        
+        <option value="F+">F+</option>
+        <option value="F">F</option>
+        <option value="F-">F-</option>
+        <!-- Add more <option> elements as needed -->
+    </select>
+            <!-- Add more form fields as needed -->
+        </form>
+
+        <form class="form">
+            <!-- Form 2 content -->
+            <label for="h4">Credit Hours:</label>
+            <input type="text" id="h4" name="h4">
+            <!-- Add more form fields as needed -->
+        </form>
+    </div>
+        <div class="form-container">
+        <form class="form">
+            <!-- Form 1 content -->
+            <label for="g5">Letter Grade:</label>
+             <select id="g5">
+        <option value="A+">A+</option>
+        <option value="A">A</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B">B</option>
+        <option value="B-">B-</option>
+        <option value="C+">C+</option>
+        <option value="C">C</option>
+        <option value="C-">C-</option>        
+        <option value="D+">D+</option>
+        <option value="D">D</option>
+        <option value="D-">D-</option>        
+        <option value="F+">F+</option>
+        <option value="F">F</option>
+        <option value="F-">F-</option>
+        <!-- Add more <option> elements as needed -->
+    </select>
+            <!-- Add more form fields as needed -->
+        </form>
+
+        <form class="form">
+            <!-- Form 2 content -->
+            <label for="h5">Credit Hours:</label>
+            <input type="text" id="h5" name="h5">
+            <!-- Add more form fields as needed -->
+        </form>
+        <button id="GPAcalc" onclick="calculateGPA()">Calculate GPA</button>
+    </div>
+    <div id="displayText"></div>
+</div>
+      <script src="script.js" class="main"></script>
+  </body>
+</html>
+
+
